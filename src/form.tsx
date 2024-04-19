@@ -11,9 +11,10 @@ const Form: FC = () => {
     return (
         <><div>
             <input type="text" name="namefield" value={namefield} placeholder="Enter your Name" onChange={handleinput} />
-            </div>
+            {/* <button onClick={} */}
+        </div>
             <div style={{ marginTop: '10px' }}>
-            {namefield && <Header name={namefield}/>}
+                {namefield && <Header name={namefield} />}
             </div>
         </>
     );
