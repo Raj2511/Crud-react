@@ -6,10 +6,10 @@ const Home: FC = () =>{
     return <>
     <div className="container-fluid text-center">
   <div className="row align-items-start m-2">
-    <div className="col-md-4 border">
+    <div className="col-md-3 border">
       <Form/>
     </div>
-    <div className="col-md-8 border">
+    <div className="col-md-9 border">
       <Grid/>
     </div>
   </div>
